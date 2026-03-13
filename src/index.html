@@ -4,41 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>Trabalho</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
-
-<style>
-    body {
-        font-family:Arial, Helvetica, sans-serif;
-        background-color: rgb(239, 239, 219);
-    }
-
-    main {
-        text-align: center;
-    }
-
-    main h1 {
-        font-size: 30px;
-    }
-
-    main p {
-        margin-top: 10px;
-    }
-
-    section {
-        margin-top: 100px;
-        margin-left: 200px;
-    }
-
-    section h1 {
-        font-size: 20px;
-        
-    }
-
-    section h2 {
-        color:rgb(239, 38, 38) ;
-    }
-</style>
-
 <body>
     <main>
         <h1>Salveee guriza</h1>
@@ -57,17 +24,6 @@
         </div>
     </section>
 
-    <script>
-        function methodCalc() {
-            const n1 = parseFloat(document.getElementById('n1').value);
-            const n2 = parseFloat(document.getElementById('n2').value);
-            
-            const sum = n1 + n2;
-            
-            document.getElementById('result').innerText = `Igual a: ${sum}`;
-
-        }
-        
-    </script>
+    <script src="js/calcFunction.js"></script>
 </body>
 </html>
